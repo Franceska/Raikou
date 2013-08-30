@@ -50,7 +50,15 @@ table {
 body {
   font-size: 15px;
   line-height: 1.5; 
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  /*background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;*/
+  background-color: #2d67a3;
+background-image: -moz-linear-gradient(top, #3270b0, #26598f);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3270b0), to(#26598f));
+background-image: -webkit-linear-gradient(top, #3270b0, #26598f);
+background-image: -o-linear-gradient(top, #3270b0, #26598f);
+background-image: linear-gradient(to bottom, #3270b0, #26598f);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: 400;
   color: #666;
